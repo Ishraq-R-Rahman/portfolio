@@ -54,8 +54,10 @@ const Profile = () => {
                         hide
                     />
                 </Timeline>
-                <br />
-                <div className={`${classes.button_container}`}>
+                <div
+                    className={`${classes.button_container}`}
+                    style={{ display: "flex" }}
+                >
                     <CustomButton
                         text={"Download CV"}
                         icon={<FileDownloadOutlinedIcon />}
