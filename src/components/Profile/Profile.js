@@ -38,7 +38,12 @@ const Profile = () => {
             <figure className={`${classes.profile_image}`}>
                 <img src={require("../../assets/images/photo.jpg")} alt="" />
             </figure>
-            <div className={`${classes.profile_information}`}>
+            <div
+                className={`${classes.profile_information}`}
+                style={{
+                    marginTop: "-60px"
+                }}
+            >
                 <Timeline icon={<Person4OutlinedIcon />}>
                     <CustomTimelineItem
                         title="Name"

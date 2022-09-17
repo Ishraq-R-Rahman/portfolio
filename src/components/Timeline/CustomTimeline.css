@@ -3,7 +3,8 @@
 }
 
 .timeline .timeline_header {
-    padding-top: 7px;
+    padding-top: 12px;
+    font-weight: bold;
 }
 
 .timeline .timeline_firstItem {

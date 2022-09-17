@@ -40,11 +40,16 @@
 .main-content {
     background-color: #fff;
     min-height: 100vh;
-    border-radius: 6px;
-    -moz-border-radius: 6px;
-    -webkit-border-radius: 6px;
+    border-radius: 6px !important;
+    -moz-border-radius: 6px !important;
+    -webkit-border-radius: 6px !important;
     margin-bottom: 30px;
-    padding: 50px 30px;
+    padding: 50px 0px 0px 0px;
+}
+
+.section {
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .section_title {
@@ -68,4 +73,9 @@
     opacity: 0.5;
     left: 0;
     background-color: var(--main-color);
+}
+
+
+.graybg {
+    background-color: #fafafa;
 }

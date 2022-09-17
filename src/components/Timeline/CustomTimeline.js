@@ -38,8 +38,6 @@ const CustomTimeline = (props) => {
             </TimelineItem>
 
             {props.children}
-
-            
         </Timeline>
     );
 };
