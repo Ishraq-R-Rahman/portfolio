@@ -7,6 +7,7 @@ const returnValue = {
     title: "Software Developer",
     email: "ishraq.r.rahman@gmail.com",
     contact: "+8801961229150",
+    address: "Dhaka-1217, Bangladesh",
 
     socials: {
         Facebook: {
