@@ -113,6 +113,53 @@ const returnValue = {
         link: "https://cse.buet.ac.bd/faculty_list/detail/mahmudanaznin",
     },
 
+    projects: [
+        {
+            tag: "Web Development",
+            image: "https://care247.tech/uploads/service/internet-security-firewall-154017bigstock-Internet-Security-Firewall-Or-326464240_1024X684.png",
+            title: "Title 1",
+            caption: "A short description",
+            description: `The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.`,
+            link: {
+                paper: "", // insert paper link if it is published
+                icon: <GitHubIcon />,
+            },
+        },
+        {
+            tag: "Machine Learning",
+            image: "https://care247.tech/uploads/service/internet-security-firewall-154017bigstock-Internet-Security-Firewall-Or-326464240_1024X684.png",
+            title: "Title 2",
+            caption: "A short description",
+            description: `The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.`,
+            link: {
+                paper: "",
+                icon: <GitHubIcon />,
+            },
+        },
+        {
+            tag: "Security",
+            image: "https://care247.tech/uploads/service/internet-security-firewall-154017bigstock-Internet-Security-Firewall-Or-326464240_1024X684.png",
+            title: "Title 3",
+            caption: "A short description",
+            description: `The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.`,
+            link: {
+                paper: "",
+                icon: <GitHubIcon />,
+            },
+        },
+        {
+            tag: "Miscellaneous",
+            image: "https://care247.tech/uploads/service/internet-security-firewall-154017bigstock-Internet-Security-Firewall-Or-326464240_1024X684.png",
+            title: "Title 4",
+                        caption: "A short description",
+            description: `The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.`,
+            link: {
+                paper: "",
+                icon: <GitHubIcon />,
+            },
+        },
+    ],
+
     research: [
         {
             tag: "Security",
