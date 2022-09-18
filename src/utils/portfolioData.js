@@ -28,11 +28,9 @@ const returnValue = {
         },
     },
 
-    about: `Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-    
-    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.`,
+    about: `I am a graduate of Bangladesh University of Engineering & Technology, Class of 2016. I'm incredibly passionate about Computer Science. I am currently working as a Software Developer in IEIMS where I'm currently involved with projects funded by Bangladesh Bureau of Educational Information and Statistics. I am a fast learner and a believer in hard work. My interests include software design and development, machine learning, system design and information security.`,
 
-    interest: `The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.`,
+    interest: `I am particularly interested in Information security , System Design and the practical applications of Machine Learning. In fact, my thesis was focused on the security in Recommender Platforms. Nonetheless, I'm very interested to explore the nitty and gritty of these fields in the near future.`,
     education: [
         {
             title: "Bangladesh University of Engineering & Technology",
