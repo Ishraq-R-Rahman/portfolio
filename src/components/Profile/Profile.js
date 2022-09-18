@@ -41,7 +41,7 @@ const Profile = () => {
             <div
                 className={`${classes.profile_information}`}
                 style={{
-                    marginTop: "-60px"
+                    marginTop: "-60px",
                 }}
             >
                 <Timeline icon={<Person4OutlinedIcon />}>
@@ -63,10 +63,20 @@ const Profile = () => {
                     className={`${classes.button_container}`}
                     style={{ display: "flex" }}
                 >
-                    <CustomButton
-                        text={"Download CV"}
-                        icon={<FileDownloadOutlinedIcon />}
-                    />
+                    <a
+                        href="https://drive.google.com/file/d/16q1Opnwo-3imI8_2ErKefLiw3TEQ-byb/view?usp=sharing"
+                        target="_blank"
+                        rel="noreferrer"
+                        style={{
+                            textDecoration: "none",
+                            color: "inherit",
+                        }}
+                    >
+                        <CustomButton
+                            text={"Download CV"}
+                            icon={<FileDownloadOutlinedIcon />}
+                        />
+                    </a>
                 </div>
             </div>
         </div>

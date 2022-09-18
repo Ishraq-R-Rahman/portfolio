@@ -1,6 +1,7 @@
 import FacebookIcon from "@mui/icons-material/Facebook";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import BiotechOutlinedIcon from "@mui/icons-material/BiotechOutlined";
 
 const returnValue = {
     name: "Ishraq R. Rahman",
@@ -102,6 +103,73 @@ const returnValue = {
         {
             title: "DATA",
             description: ["Excel", "Scrapy", "Selenium"],
+        },
+    ],
+
+    reference: {
+        name: "Dr. Mahmuda Naznin",
+        email: "mahmudanaznin@cse.buet.ac.bd",
+        title: "Professor",
+        link: "https://cse.buet.ac.bd/faculty_list/detail/mahmudanaznin",
+    },
+
+    research: [
+        {
+            tag: "Security",
+            image: "https://care247.tech/uploads/service/internet-security-firewall-154017bigstock-Internet-Security-Firewall-Or-326464240_1024X684.png",
+            title: "Title 1",
+            supervisor: {
+                link: "",
+                name: "Dr. Mahmuda Naznin",
+            },
+            caption: "A short description",
+            description: `The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.`,
+            link: {
+                paper: "", // insert paper link if it is published
+                icon: <BiotechOutlinedIcon />,
+            },
+        },
+        {
+            tag: "Security",
+            image: "https://care247.tech/uploads/service/internet-security-firewall-154017bigstock-Internet-Security-Firewall-Or-326464240_1024X684.png",
+            title: "Title 2",
+            supervisor: {
+                link: "",
+                name: "Dr. Mahmuda Naznin",
+            },            caption: "A short description",
+            description: `The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.`,
+            link: {
+                paper: "",
+                icon: <BiotechOutlinedIcon />,
+            },
+        },
+        {
+            tag: "Network",
+            image: "https://care247.tech/uploads/service/internet-security-firewall-154017bigstock-Internet-Security-Firewall-Or-326464240_1024X684.png",
+            title: "Title 3",
+            supervisor: {
+                link: "",
+                name: "Dr. Mahmuda Naznin",
+            },            caption: "A short description",
+            description: `The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.`,
+            link: {
+                paper: "",
+                icon: <BiotechOutlinedIcon />,
+            },
+        },
+        {
+            tag: "Machine Learning",
+            image: "https://care247.tech/uploads/service/internet-security-firewall-154017bigstock-Internet-Security-Firewall-Or-326464240_1024X684.png",
+            title: "Title 4",
+            supervisor: {
+                link: "",
+                name: "Dr. Mahmuda Naznin",
+            },            caption: "A short description",
+            description: `The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.`,
+            link: {
+                paper: "",
+                icon: <BiotechOutlinedIcon />,
+            },
         },
     ],
 };

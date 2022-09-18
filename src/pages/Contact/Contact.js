@@ -1,6 +1,7 @@
 import { Grid, TextField, Typography } from "@mui/material";
 import CustomButton from "../../components/Button/CustomButton";
 import DoneAllIcon from "@mui/icons-material/DoneAll";
+import ArrowOutwardOutlinedIcon from "@mui/icons-material/ArrowOutwardOutlined";
 import portfolioData from "../../utils/portfolioData";
 import React from "react";
 import "./Contact.css";
@@ -11,53 +12,11 @@ const Contact = () => {
             <Grid item xs={12} lg={7}>
                 <Grid item className="section_title mb-30">
                     <span></span>
-                    <h6 className="section_title_text">Contact Form</h6>
-                </Grid>
-                <Grid item xs={12}>
-                    <Grid container spacing={2}>
-                        <Grid item xs={12} sm={6}>
-                            <TextField
-                                variant="standard"
-                                fullWidth
-                                name="name"
-                                label="Name"
-                            />
-                        </Grid>
-                        <Grid item xs={12} sm={6}>
-                            <TextField
-                                variant="standard"
-                                fullWidth
-                                name="email"
-                                label="E-mail"
-                            />
-                        </Grid>
-                        <Grid item xs={12}>
-                            <TextField
-                                variant="standard"
-                                fullWidth
-                                name="message"
-                                label="Message"
-                                multiline
-                                rows={4}
-                            />
-                        </Grid>
-                        <Grid item xs={12}>
-                            <CustomButton
-                                text="Submit"
-                                icon={<DoneAllIcon />}
-                            />
-                        </Grid>
-                    </Grid>
-                </Grid>
-            </Grid>
-            <Grid item xs={12} lg={5}>
-                <Grid item className="section_title mb-30">
-                    <span></span>
                     <h6 className="section_title_text">Contact Informations</h6>
                 </Grid>
                 <Grid item xs={12}>
                     <Grid container spacing={2}>
-                        <Grid item>
+                        <Grid item xs={12}>
                             <Typography
                                 variant="body2"
                                 className="contactInfo_item"
@@ -65,7 +24,7 @@ const Contact = () => {
                                 <span>Address: </span> {portfolioData.address}
                             </Typography>
                         </Grid>
-                        <Grid item>
+                        <Grid item xs={12}>
                             <Typography
                                 variant="body2"
                                 className="contactInfo_item"
@@ -73,7 +32,7 @@ const Contact = () => {
                                 <span>Email: </span> {portfolioData.email}
                             </Typography>
                         </Grid>
-                        <Grid item>
+                        <Grid item xs={12}>
                             <Typography
                                 variant="body2"
                                 className="contactInfo_item"
@@ -81,7 +40,7 @@ const Contact = () => {
                                 <span>Phone: </span> {portfolioData.contact}
                             </Typography>
                         </Grid>
-                        <Grid item>
+                        <Grid item xs={12}>
                             <Typography
                                 variant="body2"
                                 className="contactInfo_item"
@@ -120,6 +79,60 @@ const Contact = () => {
                                     )
                                 )}
                             </Grid>
+                        </Grid>
+                    </Grid>
+                </Grid>
+            </Grid>
+            <Grid item xs={12} lg={5}>
+                <Grid item className="section_title mb-30">
+                    <span></span>
+                    <h6 className="section_title_text">Reference</h6>
+                </Grid>
+                <Grid item xs={12}>
+                    <Grid container spacing={2}>
+                        <Grid item xs={12}>
+                            <Typography
+                                variant="h5"
+                            >
+                                <span>{portfolioData.reference.name}</span>
+                            </Typography>
+                        </Grid>
+                        <Grid item xs={12}>
+                            <Typography
+                                variant="body2"
+                                className="contactInfo_item"
+                            >
+                                {portfolioData.reference.title}
+                            </Typography>
+                        </Grid>
+                        <Grid item xs={12}>
+                            <Typography
+                                variant="body2"
+                                className="contactInfo_item"
+                            >
+                                {portfolioData.reference.email}
+                            </Typography>
+                        </Grid>
+                        <Grid item>
+                            <Typography
+                                variant="body2"
+                                className="contactInfo_item"
+                            >
+                                <a
+                                    href="https://sites.google.com/site/mahmudanaznin"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    style={{
+                                        textDecoration: "none",
+                                        color: "black",
+                                    }}
+                                >
+                                    <CustomButton
+                                        text={"Visit Profile"}
+                                        icon={<ArrowOutwardOutlinedIcon />}
+                                    />
+                                </a>
+                            </Typography>
                         </Grid>
                     </Grid>
                 </Grid>
