@@ -64,7 +64,7 @@ const Profile = () => {
                     style={{ display: "flex" }}
                 >
                     <a
-                        href="https://drive.google.com/file/d/16q1Opnwo-3imI8_2ErKefLiw3TEQ-byb/view?usp=sharing"
+                        href="https://drive.google.com/file/d/1FU3VBzxJn-KE9-rIvLF67Fh4RyqB7VvJ/view?usp=sharing"
                         target="_blank"
                         rel="noreferrer"
                         style={{
