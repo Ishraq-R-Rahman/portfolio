@@ -16,6 +16,7 @@ import {
 import React, { useState } from "react";
 import portfolioData from "../../utils/portfolioData";
 import CustomButton from "../../components/Button/CustomButton";
+import { TimelineDot } from "@mui/lab";
 
 const Projects = () => {
     const [tabValue, setTabValue] = useState("All");
@@ -129,6 +130,41 @@ const Projects = () => {
                     >
                         {projectDialog?.title}
                     </Typography>
+                    <div
+                        style={{
+                            display: "flex",
+                            justifyContent: "flex-start",
+                            alignItems: "center",
+                            textAlign: "center",
+                        }}
+                    >
+                        {projectDialog?.icons.map((icon, idx) => (
+                            <Typography
+                                variant="body2"
+                                style={{
+                                    fontWeight: 300,
+                                    color: "gray",
+                                    display: "flex",
+                                    justifyContent: "center",
+                                    alignItems: "center",
+                                    paddingRight: 10,
+                                }}
+                            >
+                                {idx !== 0 && (
+                                    <TimelineDot
+                                        variant="outlined"
+                                        style={{
+                                            borderColor: "#f39530",
+                                            padding: "2px",
+                                            marginRight: "5px",
+                                            width: 5,
+                                        }}
+                                    ></TimelineDot>
+                                )}
+                                <div>{icon}</div>
+                            </Typography>
+                        ))}
+                    </div>
                 </DialogTitle>
                 <img
                     src={projectDialog?.image}
@@ -141,7 +177,7 @@ const Projects = () => {
                     </Typography>
                 </DialogContent>
                 <DialogActions className="researchDialog_actions">
-                    {projectDialog?.link?.link && (
+                    {projectDialog?.link?.paper && (
                         <a
                             href={projectDialog?.link?.paper}
                             target="_blank"
@@ -153,7 +189,7 @@ const Projects = () => {
                             }}
                         >
                             <CustomButton
-                                text="Read the Paper"
+                                text="Find the Project"
                                 icon={projectDialog?.link?.icon}
                             />
                         </a>

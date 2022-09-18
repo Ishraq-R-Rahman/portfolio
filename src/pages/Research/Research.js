@@ -152,18 +152,18 @@ const Research = () => {
                         </a>
                     </Typography>
                 </DialogTitle>
-                <img
+                {/* <img
                     src={projectDialog?.image}
                     alt=""
                     className="researchDialog_image"
-                />
+                /> */}
                 <DialogContent>
                     <Typography className="researchDialog_description">
                         {projectDialog?.description}
                     </Typography>
                 </DialogContent>
                 <DialogActions className="researchDialog_actions">
-                    {projectDialog?.link?.link && (
+                    {projectDialog?.link?.paper && (
                         <a
                             href={projectDialog?.link?.paper}
                             target="_blank"
