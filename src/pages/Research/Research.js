@@ -3,6 +3,7 @@ import {
     CardActionArea,
     CardContent,
     CardMedia,
+    Chip,
     Dialog,
     DialogActions,
     DialogContent,
@@ -107,6 +108,20 @@ const Research = () => {
                                                     >
                                                         {item.caption}
                                                     </Typography>
+                                                    <br/>
+                                                    <br/>
+                                                    {item.status && (
+                                                        <Chip
+                                                            label={
+                                                                item.status.text
+                                                            }
+                                                            color={
+                                                                item.status
+                                                                    .color
+                                                            }
+                                                            size="small"
+                                                        />
+                                                    )}
                                                 </CardContent>
                                             </CardActionArea>
                                         </Card>
@@ -130,27 +145,47 @@ const Research = () => {
                     >
                         {projectDialog?.title}
                     </Typography>
-                    <Typography
-                        variant="body2"
-                        style={{
-                            fontWeight: 300,
-                            paddingTop: 10,
-                            paddingLeft: 4,
-                            fontStyle: "italic",
-                        }}
-                    >
-                        <span>Supervisor: </span>
-                        <a
-                            href={projectDialog?.supervisor.link}
-                            target="_blank"
-                            rel="noreferrer"
+                    {projectDialog?.status && (
+                        <Typography
+                            variant="body2"
                             style={{
-                                color: "gray",
+                                fontWeight: 300,
+                                paddingTop: 10,
+                                paddingLeft: 4,
+                                fontStyle: "italic",
                             }}
                         >
-                            {projectDialog?.supervisor.name}
-                        </a>
-                    </Typography>
+                            <span>Status: </span>
+                            <Chip
+                                label={projectDialog?.status.text}
+                                color={projectDialog?.status.color}
+                                size="small"
+                            />
+                        </Typography>
+                    )}
+                    {projectDialog?.supervisor.link && (
+                        <Typography
+                            variant="body2"
+                            style={{
+                                fontWeight: 300,
+                                paddingTop: 10,
+                                paddingLeft: 4,
+                                fontStyle: "italic",
+                            }}
+                        >
+                            <span>Supervisor: </span>
+                            <a
+                                href={projectDialog?.supervisor.link}
+                                target="_blank"
+                                rel="noreferrer"
+                                style={{
+                                    color: "gray",
+                                }}
+                            >
+                                {projectDialog?.supervisor.name}
+                            </a>
+                        </Typography>
+                    )}
                 </DialogTitle>
                 {/* <img
                     src={projectDialog?.image}

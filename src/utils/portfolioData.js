@@ -252,16 +252,20 @@ const returnValue = {
             },
         },
         {
-            tag: "Security",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Android_logo_2019.png/800px-Android_logo_2019.png",
-            title: "Android Malware Detection",
+            tag: "Machine Learning",
+            image: "https://care247.tech/uploads/service/internet-security-firewall-154017bigstock-Internet-Security-Firewall-Or-326464240_1024X684.png",
+            title: "Machine Learning Approaches to Metastasis Bladder and Secondary Pulmonary Cancer Classification Using Gene Expression Data",
+            status: {
+                text: "Submitted in ICCIT",
+                color: "success",
+            },
             supervisor: {
-                link: "https://cse.buet.ac.bd/faculty_list/detail/mshohrabhossain",
-                name: "Dr. Md. Shohrab Hossain",
+                link: "",
+                name: "",
             },
             caption:
-                "Detection of android malwares based on their system behavior by inspecting the system calls made. \n **Paper still ongoing**",
-            description: `Detection of android malwares based on their system behavior by inspecting the system calls made.`,
+                "Finding the best classifier to distinguish between cancer types that similar causal link is imperative for better diagnosis. In this paper, only bladder and lung cancer were considered.",
+            description: `Similar causal relationships can exist between many cancer types, for example, metastatic bladder cancer and secondary lung cancer. This relatedness must therefore be taken into account for the diagnosis to be more accurate. The categorization of cancers can benefit from gene expression studies. In order to categorize cancer tissues with a comparable causal link, the best classifier model is sought after in this research. The CuMiDa dataset is used to obtain the lung and bladder cancer datasets, and parameters are modified to improve accuracy once fewer classifiers are taken into account. According to the experimental findings, Linear SVC performs the highest with 0.97 accuracy, followed by Logistic Regress and XGBoost, which perfroms with 0.96 accuracy.`,
             link: {
                 paper: "",
                 icon: <BiotechOutlinedIcon />,
@@ -271,6 +275,10 @@ const returnValue = {
             tag: "Network",
             image: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
             title: "DeepVRM: Deep Learning Based Virtual Resource Management for Energy Efficiency",
+            status: {
+                text: "Submitted in Springer",
+                color: "success",
+            },
             supervisor: {
                 link: "https://cse.buet.ac.bd/faculty_list/detail/mahmudanaznin",
                 name: "Dr. Mahmuda Naznin",
@@ -283,21 +291,26 @@ const returnValue = {
                 icon: <BiotechOutlinedIcon />,
             },
         },
-        // {
-        //     tag: "Machine Learning",
-        //     image: "https://care247.tech/uploads/service/internet-security-firewall-154017bigstock-Internet-Security-Firewall-Or-326464240_1024X684.png",
-        //     title: "Title 4",
-        //     supervisor: {
-        //         link: "",
-        //         name: "Dr. Mahmuda Naznin",
-        //     },
-        //     caption: "A short description",
-        //     description: `The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.`,
-        //     link: {
-        //         paper: "",
-        //         icon: <BiotechOutlinedIcon />,
-        //     },
-        // },
+        {
+            tag: "Security",
+            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Android_logo_2019.png/800px-Android_logo_2019.png",
+            title: "Android Malware Detection",
+            status: {
+                text: "Ongoing Work",
+                color: "primary",
+            },
+            supervisor: {
+                link: "https://cse.buet.ac.bd/faculty_list/detail/mshohrabhossain",
+                name: "Dr. Md. Shohrab Hossain",
+            },
+            caption:
+                "Detection of android malwares based on their system behavior by inspecting the system calls made.",
+            description: `Detection of android malwares based on their system behavior by inspecting the system calls made.`,
+            link: {
+                paper: "",
+                icon: <BiotechOutlinedIcon />,
+            },
+        },
     ],
 };
 
