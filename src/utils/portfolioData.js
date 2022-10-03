@@ -30,7 +30,7 @@ const returnValue = {
 
     about: `I am a graduate of Bangladesh University of Engineering & Technology, Class of 2016. I'm incredibly passionate about Computer Science. I am currently working as a Software Developer in IEIMS where I'm currently involved with projects funded by Bangladesh Bureau of Educational Information and Statistics. I am a fast learner and a believer in hard work. My interests include software design and development, machine learning, system design and information security.`,
 
-    interest: `I am particularly interested in Information security , System Design and the practical applications of Machine Learning. In fact, my thesis was focused on the security in Recommender Platforms. Nonetheless, I'm very interested to explore the nitty and gritty of these fields in the near future.`,
+    interest: `I am particularly interested in Information security , Computer Networks and the practical applications of Machine Learning. In fact, my thesis was focused on the security in Recommender Platforms. Nonetheless, I'm very interested to explore the nitty and gritty of these fields in the near future.`,
     education: [
         {
             title: "Bangladesh University of Engineering & Technology",
