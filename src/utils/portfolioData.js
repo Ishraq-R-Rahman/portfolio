@@ -256,7 +256,7 @@ const returnValue = {
             image: "https://care247.tech/uploads/service/internet-security-firewall-154017bigstock-Internet-Security-Firewall-Or-326464240_1024X684.png",
             title: "Machine Learning Approaches to Metastasis Bladder and Secondary Pulmonary Cancer Classification Using Gene Expression Data",
             status: {
-                text: "Submitted in ICCIT",
+                text: "Accepted in ICCIT",
                 color: "success",
             },
             supervisor: {
@@ -277,7 +277,7 @@ const returnValue = {
             title: "Dataset Preparation and Automated Categorization of Bangla Audio Content using Publicly Available Data",
             status: {
                 text: "Submitted in ICASSP",
-                color: "success",
+                color: "secondary",
             },
             supervisor: {
                 link: "",
@@ -296,8 +296,8 @@ const returnValue = {
             image: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
             title: "DeepVRM: Deep Learning Based Virtual Resource Management for Energy Efficiency",
             status: {
-                text: "Submitted in Springer",
-                color: "success",
+                text: "Under Review in Springer",
+                color: "primary",
             },
             supervisor: {
                 link: "https://cse.buet.ac.bd/faculty_list/detail/mahmudanaznin",
@@ -317,7 +317,7 @@ const returnValue = {
             title: "Android Malware Detection",
             status: {
                 text: "Ongoing Work",
-                color: "primary",
+                color: "warning",
             },
             supervisor: {
                 link: "https://cse.buet.ac.bd/faculty_list/detail/mshohrabhossain",
